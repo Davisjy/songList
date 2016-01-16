@@ -1,0 +1,129 @@
+body,a,input,label,button,ul,li {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #30313D;
+    font-family: "Apple Color Emoji";
+}
+
+.header-line {
+    height: 5px;
+    background-color: red;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li {
+    float: left;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 200px;
+    line-height: 40px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav ul li a.active {
+    background-color: white;
+    color: black;
+}
+
+.list {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.list .item {
+    display: inline-block;
+    width: 320px;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+.list .item img {
+    width: 320px;
+    height: 200px;
+}
+
+.list .item p {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 11px;
+    color: gray;
+}
+
+.list .item a {
+    text-decoration: none;
+    background-color: #A73C2A;
+    color: white;
+    display: inline-block;
+    width: 150px;
+}
+
+.list .item a:hover {
+    background-color: black;
+}
+
+.contact {
+    text-align: center;
+    background-color: darkgray;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.contact ul li {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contact ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact ul li img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav ul li {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .nav ul li {
+        width: 100px;
+    }
+}
